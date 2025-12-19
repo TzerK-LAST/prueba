@@ -1,0 +1,459 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.btn-boton{
+    padding: 13px;
+    background: #4CAF4F;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-boton:active{
+    color: black;
+    background-color: #FFFFFF;
+}
+
+*{
+    list-style: none;
+    font-family: Inter;
+}
+
+
+/* ================================
+   header
+================================ */
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 15%;
+}
+
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F7FA;
+    padding: 1%;
+}
+
+
+.contain-navegation{
+display: flex;
+align-items: center;
+.navegation{
+    display: flex;
+    gap: 20px;
+    a{
+        color: black;
+        list-style: none;
+    }
+}
+
+}
+
+
+
+.sign{
+.buttom-sign{
+    padding: 13px;
+    background: #4CAF4F;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 45px;
+}
+
+.buttom-login{
+    padding: 13px;
+    background: F5F7FA;
+    border: none;
+    color: #4CAF4F;
+    cursor: pointer;
+    border-radius: 45px;
+}
+.buttom-sign:active{
+    background-color: azure;
+    color: black;
+}
+.buttom-login{
+    background-color: azure;
+    color: black;
+}
+
+}
+
+
+/* ================================
+   home page use flex 
+================================ */
+
+
+/* ================================
+  use repeat code 
+================================ */
+.heroe-section{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    background-color: #F5F7FA;
+
+    div{
+        align-items: center;
+        padding: 2%;
+        font-size: 20px;
+        display: block;
+        align-content: center;
+        h1{
+            
+            div{
+                color: #4CAF4F; font-size: 140%;
+            }
+        }
+        
+    }
+}
+
+
+
+/* ================================
+   our client use grid
+================================ */
+.client{
+    display: grid;
+    justify-content: center;
+    .client-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    .logo{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 90px;
+    }
+}
+
+
+
+/* ================================
+   Community
+================================ */
+.community-text{
+    display: grid;
+    justify-content: center;
+    span{
+        font-size: 200%;
+        color: gray;
+    }
+}
+
+.community{
+    display: inline-flex;
+    gap: 20%;
+    margin: 0% 15% 0% 15%;
+    article{
+        padding: 1%;
+        box-shadow: 0 4px 30px #FFFFFF;
+        border-radius: 22px;
+        border: #F5F7FA solid 1px;
+    }
+}
+
+
+
+
+
+
+
+  /* ================================
+   body 
+================================ */
+
+.Achievements{
+    background-color: #F5F7FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aside{
+        padding: 3%;
+    }
+}
+
+.Achievements-contains{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    div{
+        margin: 20%;
+    }
+}
+
+/* ================================
+   use repeat code
+================================ */
+
+.heroe-customer{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    background-color: #F5F7FA;
+
+    div{
+        padding: 2%;
+        h2{
+         color: green; font-size: 140%;
+        }
+        .heroe-customer-more{
+            display: flex;
+            gap: 8%;
+            color: green;
+        }
+    }
+}
+
+
+
+
+
+/* ================================
+   card i use position absolute 
+================================ */
+
+.Community-Updates{
+    display: flex;
+    justify-content: center;
+    padding: 52px;
+    padding-bottom: 112px;
+    gap: 20px;
+    .card-contains{
+    display: block;
+    overflow: hidden;
+    
+    .card{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 10px;
+            width: 200px;
+            background-color: #F5F7FA;
+            position: absolute;
+            height: auto;
+            border-radius: 17px;
+            margin: -88px 17px -58px 87px
+            
+         
+    }
+     .card2{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 10px;
+            width: 200px;
+            background-color: #F5F7FA;
+            position: absolute;
+            height: auto;
+            border-radius: 17px;
+            margin: -88px 17px -58px 87px
+                                  
+    }
+     .card3{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 10px;
+            width: 200px;
+            background-color: #F5F7FA;
+            position: absolute;
+            height: auto;
+            border-radius: 17px;
+            margin: -88px 17px -58px 87px
+    }
+    }
+    h5{
+                    color: green;
+                    cursor: pointer;
+                }
+}
+
+
+.new-marketing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+/* ================================
+   footer general
+================================ */
+
+
+
+.Get-demo{
+    background-color: #F5F7FA;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    button{
+        margin: 20px;
+    }
+}
+
+
+.footer-ultimate{
+ background-color: #263238;
+    display: flex;
+    justify-content: space-around;
+    gap: 6%;
+    padding: 2%;
+     color: #F5F7FA;
+}
+
+
+
+
+
+
+
+
+
+/* ================================
+   mobil
+================================ */
+
+
+
+
+@media screen and (max-width: 768px) {
+
+/* ================================
+   use block for mobil 
+================================ */
+
+.container-header{
+    display: block;
+    align-items: center;
+    justify-items: center;
+    overflow: hidden;
+}
+
+
+.contain-navegation{
+display: flex;
+flex-direction: column;
+.navegation{
+  display: block;
+    margin: 10px;
+    li{
+        margin: 10px;
+        lighting-color: #4CAF4F;
+    }
+}
+
+}
+
+
+
+.heroe-section{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.client{
+    display: grid;
+    justify-content: center;
+    .client-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    .logo{
+        display: grid;
+        grid-template-columns: 5fr 5fr 5fr;
+        gap: 44px;
+    }
+}
+
+.community{
+    flex-direction: column;
+}
+
+.Achievements{
+    display: block;
+    .Achievements-contains{
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    align-items: center;
+    }
+}
+
+
+
+.heroe-customer{
+    display: block;
+    justify-content: center;
+    margin: 2%;
+    background-color: #F5F7FA;
+
+    div{
+        padding: 2%;
+        h2{
+         color: green; font-size: 140%;
+        }
+        .heroe-customer-more{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        gap: 0;
+        }
+    }
+}
+
+.footer-ultimate{
+    display: block;
+    justify-items: center;
+}
+
+
+.Community-Updates{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: auto;
+    padding-bottom: 45px;
+    gap: 20px;
+    .card-contains{
+    display: block;
+    overflow: hidden;
+    
+    .card{
+            width: 200px;
+            background-color: #F5F7FA;
+      position: relative;
+           
+    }
+     .card2{
+            width: 200px;
+            background-color: #F5F7FA;
+        position: relative;
+    }
+     .card3{
+            width: 200px;
+            background-color: #F5F7FA;
+            position: relative;
+           
+    }
+    }
+}
+
+
+}
